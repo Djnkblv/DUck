@@ -2,9 +2,9 @@
 
 DecoyDuck::DecoyDuck()
 {
-
+    quackBehavior = new MuteQuack();
+    flyBehavior = new FlyNoWay();}
+void DecoyDuck::display(){
+    cout<<"MADE IN CHINA LEGEND"<<endl;
 }
 
-void DecoyDuck::display() {
-    cout <<"I'm a Decoy Duck BEGITE NAHUY!!" << endl;
-}

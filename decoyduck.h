@@ -10,4 +10,5 @@ public:
     virtual void display();
 };
 
+
 #endif // DECOYDUCK_H

@@ -1,10 +1,10 @@
 #include "redheadduck.h"
 
-RedHeadDuck::RedHeadDuck()
+RedheadDuck::RedheadDuck()
 {
-
+    quackBehavior = new Quack();
+    flyBehavior = new FlyWithWings();
 }
-
-void RedHeadDuck::display() {
-    cout << "I'm Redhead duck!" << endl;
+void RedheadDuck::display(){
+    cout<<"I'm Redheadduck"<<endl;
 }
